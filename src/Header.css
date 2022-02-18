@@ -1,0 +1,45 @@
+.header_top {
+  background-color: "#e8e8e8";
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100vw;
+}
+
+.header_top_link {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.header_top_link:hover {
+  color: orange!important;
+  cursor: pointer;
+}
+
+.header_top_input {
+    border: none;
+}
+
+.header_top_search {
+    display: flex;
+    margin-right: 20%;
+}
+
+.header_bottom {
+    justify-content: center;
+    background-color: rgba(215,215,215,255);
+    display: flex;
+    width: 100%;
+}
+.header_bottom > h1 {
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header_bottom > img {
+    object-fit: contain;
+    margin-top: -45px;
+}
+

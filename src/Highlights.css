@@ -1,0 +1,66 @@
+.highlight {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 13px;
+    padding-top: 12px;
+    background-color: rgba(47,112,192,255);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid white
+}
+
+.number {
+    font-size: 30px;
+    justify-self: left;
+}
+
+.description {
+    font-size: 17px;
+    justify-self: right;
+}
+
+.highlight >text {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-family: 'Dosis';
+}
+
+.highlights {
+    margin-top: 23px;
+    margin-left: -5px;
+}
+
+.heading {
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: rgba(20, 77, 147, 255);
+    padding-left: 15x;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-family: 'Dosis';
+}
+
+.more_btn {
+    font-family: 'Dosis';
+    font-size: 13px;
+    color: white;
+    text-align: right;
+    padding-right: 27px;
+    padding-left: 10px;
+    margin-top: -25px;
+}
+
+.more_btn:hover {
+    color: orange;
+    cursor: pointer;
+}

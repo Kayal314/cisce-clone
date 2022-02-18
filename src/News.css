@@ -1,0 +1,36 @@
+.news {
+    height: 432px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgba(126,201,207,255);
+    margin-right: 360px;
+}
+
+.news_heading {
+    font-size: 25px;
+    color: rgba(66,66,66,255);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.news_content {
+    padding: 10px;
+}
+
+.news_content:hover {
+    text-decoration: underline;
+}
+
+.more_news {
+    font-weight: 600;
+    color: rgba(66,66,66,255);
+    padding: 15px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.more_news:hover {
+    cursor: pointer;
+    color: orange;
+}

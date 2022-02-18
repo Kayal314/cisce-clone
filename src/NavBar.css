@@ -1,0 +1,21 @@
+.navbar {
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgba(66,66,66,255);
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+
+.navbar > text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar > text:hover {
+    color: orange;
+    cursor: pointer;
+}

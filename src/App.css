@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.banner_highlights {
+    display: flex;
+    margin-left: 18%;
+    margin-right: 18%;
+    justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notice_news_alumni {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.concession {
+    width: 380px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(145,104,162,255);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.concession_heading {
+    margin-top: 8px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    padding-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.concession_text {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.concession_plus {
+    text-align: right;
+    padding: 10px;
+    margin-top: -2px;
+}
+
+.concession_plus:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.note_publication_place {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.places_title {
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgba(66,66,66,255);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -5px;
+    z-index: 1;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17.5%;
+    margin-top: -20px;
+}
+
+.footer {
+    margin-top: 30px;
+    height: 140px;
+    width: 100%;
+    background-color: rgba(218,218,218,255);
+    color: rgba(66,66,66,255);
+    font-family: 'Dosis';
+    padding: 10px;
+}
+
+.footer > p{
+    margin-left: 19%;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
 }

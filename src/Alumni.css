@@ -1,0 +1,45 @@
+.alumni {
+    margin-top: -25px;
+    width: 250px;
+    margin-left: 365px
+}
+
+.alum {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(12,12,12,255);
+    color: white;
+}
+
+.alum > p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.alumni_heading {
+    color: white;
+    background-color: rgba(227,164,25,255);
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: -5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.alum_name {
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+.alumni_scroll {
+    display: flex;
+    flex-direction: column;
+    max-height: 380px;
+    overflow-y: scroll;
+}
+
+.alumni_scroll::-webkit-scrollbar {
+    display: none;
+}
+ 
+
